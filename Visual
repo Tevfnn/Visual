@@ -219,7 +219,6 @@ function nurysium: init(name: string, is_draggable: boolean, parent)
     functions_frame.Position = UDim2.new(0.31407398, 0, 0.170943886, 0)
     functions_frame.Size = UDim2.new(0, 397, 0, 254)
     functions_frame.ScrollBarThickness = 0
-    functions_frame.Frame.Draggable = true
 
     UIPadding.Parent = functions_frame
     UIPadding.PaddingTop = UDim.new(0.00999999978, 0)
